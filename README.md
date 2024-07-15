@@ -20,7 +20,7 @@ meson compile -C build
 This will create the '`build`' directory.
 The executable `tinyspline` will be in the `build` directory.
 
-This was only test on linux, so no idea if it works properly on anything else.
+This was only tested on linux, so no idea if it works properly on anything else.
 
 
 ## Running
