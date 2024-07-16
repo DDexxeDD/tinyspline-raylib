@@ -107,6 +107,9 @@ void demo_interpolation_run (struct nk_context* context)
 	if (IsMouseButtonPressed (MOUSE_BUTTON_LEFT))
 	{
 		Vector2 mouse_position = GetMousePosition ();
+		// the spline and points are rendered offset from their actual location
+		// 	so we need to test the mouse at the offset location
+		mouse_position.y -= TAB_OFFSET;
 
 		for (int iter = 0; iter < cvector_size (points) / INTERPOLATION_DIMENSION; iter++)
 		{
