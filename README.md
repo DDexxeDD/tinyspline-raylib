@@ -6,6 +6,7 @@ The [tinyspline](https://github.com/msteinbeck/tinyspline) cxx/fltk examples don
 ## Building
 
 You will need [meson](https://mesonbuild.com/Getting-meson.html) and [ninja](https://ninja-build.org/) to build this project.
+
 You will also need to build raylib and put `libraylib.a` in external/raylib.
 
 **Build**
@@ -19,7 +20,7 @@ meson compile -C build
 This will create the '`build`' directory.
 The executable `tinyspline` will be in the `build` directory.
 
-This was only test on linux, so no idea if it works properly on anything else.
+This was only tested on linux, so no idea if it works properly on anything else.
 
 
 ## Running
